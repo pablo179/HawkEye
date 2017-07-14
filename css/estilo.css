@@ -1,0 +1,9 @@
+div{
+    background: red;
+    width: 100px;
+
+}
+body{
+    display: flex;
+    justify-content: space-around;
+}
