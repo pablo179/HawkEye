@@ -248,3 +248,135 @@ h1 {
   height: 20%;
   visibility: visible;
 }
+  @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+#social {
+  text-align: center;
+}
+
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 47px;
+    box-shadow: 0 2px 2px #999;
+    margin-left: 3%;
+    margin-top: 13%;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #fff;
+}
+
+/* linkedin button class*/
+.githubBtn{
+    background: black;
+}
+
+.githubBtn:before{
+      font-family: "FontAwesome";
+      content: "\f09b"; /* add linkedin icon */
+}
+
+.githubBtn:hover{
+      color: black;
+      background: #fff;
+}
+
+/* pinterest button class*/
+.codepenBtn{
+    background: grey;
+}
+
+.codepenBtn:before{
+      font-family: "FontAwesome";
+      content: "\f1cb"; /* add pinterest icon */
+}
+
+.codepenBtn:hover{
+      color: #cb2027;
+      background: #fff;
+}
+
+/* instagram button class*/
+.instagramBtn{
+    background: #FF1750;
+}
+
+.instagramBtn:before{
+      font-family: "FontAwesome";
+      content:  "\f16d"; /* add instagram icon */
+      
+}
+
+.instagramBtn:hover{
+      color: #FF1750;
+      background: #fff;
+      border-color: #FF1750;
+}
+
+/* youtube button class*/
+.youtubeBtn{
+    background: #F33;
+}
+
+.youtubeBtn:before{
+      font-family: "FontAwesome";
+      content: "\f167"; /* add youtube icon */
+}
+
+.youtubeBtn:hover{
+      color: #F33;
+      background: #fff;
+      border-color: #F33;
+}
